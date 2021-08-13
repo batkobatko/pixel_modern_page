@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500&display=swap');
+
+.content-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding: 100px 100px;
+    height: 100%;
+    transform: translate(-50%,-50%);
+    background: rgba(255,255,255,0.04);
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+    align-items: center;
+    z-index: 999;
+}
+.content-1 header{
+    color: #bababa;
+    font-size: 33px;
+    font-weight: 600;
+    margin: 0 0 25px 0;
+    font-family: 'Montserrat',sans-serif;
+}
+.field-1{
+    position: relative;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    background: #bababa;
+}
+.field-1 span{
+    color: #222;
+    width: 40px;
+    line-height: 45px;
+    background: #bababa;
+}
+.field-1 input{
+    height: 100%;
+    width: 100%;
+    background: #bababa;
+    border: none;
+    outline: none;
+    color: #222;
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+}
+.space{
+    margin-top: 16px;
+}
+.show{
+    position: absolute;
+    right: 13px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #222;
+    display: none;
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+}
+.pass-key:valid ~ .show{
+    display: block;
+}
+.pass{
+    text-align: left;
+    margin: 10px 0;
+}
+.pass a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+.pass:hover a{
+    text-decoration: underline;
+}
+.field input[type="submit"]{
+    background: #3498db;
+    border: 1px solid #2691d9;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+}
+.field input[type="submit"]:hover{
+    background: #2691d9;
+}
+.login{
+    text-align: left;
+    margin: 10px 0;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+}
+.links{
+    display: flex;
+    cursor: pointer;
+    color: white;
+    margin: 0 0 20px 0;
+}
+.facebook{
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border-radius: 20%;
+}
+
+.instagram{
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border-radius: 20%;
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf)
+}
+
+.facebook{
+    margin: 0;
+    background: #4267B2;
+    color: snow;
+    padding-top: 8px;
+    border: 1px solid #3e61a8;
+}
+.instagram:after,
+.instagram:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #fff;
+    transform: translate(-50%, -50%);
+    content: ''
+}
+.instagram:before {
+    border-radius: 20%
+}
+.instagram:after {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%
+}
+
+.facebook:hover{
+    background: #3e61a8;
+}
+.instagram:hover{
+    background: #df2060;
+}
+.links i{
+    font-size: 17px;
+}
+i span{
+    margin-left: 8px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+}
+.signup{
+    font-size: 15px;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+}
+.signup a{
+    color: #3498db;
+    text-decoration: none;
+}
+.signup a:hover{
+    text-decoration: underline;
+}
