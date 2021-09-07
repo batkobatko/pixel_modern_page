@@ -3,6 +3,14 @@
     Document Title
     =============================================
     -->
+<!-- You can use Open Graph tags to customize link previews.
+Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+<meta property="og:url"           content="" />
+<meta property="og:type"          content="website" />
+<meta property="og:title"         content="" />
+<meta property="og:description"   content="" />
+<meta property="og:image"         content="{{ ('front/images/banner/banner-bgr-2.png') }}" />
+
 <body>
 <style>
     /*--------------------------------------------------------------

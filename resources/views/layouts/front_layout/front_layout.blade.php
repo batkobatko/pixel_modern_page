@@ -8,16 +8,19 @@
         Document Title
         =============================================
         -->
-        <!-- <title>PIXEL | Naruči svoj savršen dizajn | izrada web stranica - specijalna ponuda - kalkulator cijena! </title>
+        <title>PIXEL | Naruči svoj savršen dizajn | izrada web stranica - specijalna ponuda - kalkulator cijena! </title>
         <meta name="description" content="Izrada web stranica, rješenja za Vaš dizajn. Izdvajamo - Naše rješenje (Web prodavnica) - potpuno autonoman sistem kupoprodaje -VIDEO!">
         <meta name="web_author" content="Saša Novaković - Pixel Prijedor">
         <meta name="author" content="dipl ing Saša Novaković">
         <meta name="designer" content="Renata Šikanjić">
         <meta name="keywords" content="pixelprijedor.com, pixel, prijedor, laravel, wordpress,online, prodaja, prodavnica, shop, savršen, dizajn, redizajn, kalkulator, cijena, već, od">
-        <meta name='revised' content='Sunday, May 2th, 2021, 5:15 pm'> -->
-        {!! SEOMeta::generate() !!}
-
-    </head>
+        <meta name='revised' content='Sunday, May 2th, 2021, 5:15 pm'>
+     @php //  < {!! SEOMeta::generate() !!}> @endphp
+        <meta property="og:url"                content="www.pixelprijedor" />
+        <meta property="og:type"               content="article" />
+        <meta property="og:title"              content="PIXEL | Naruči svoj savršen dizajn | izrada web stranica - specijalna ponuda - kalkulator cijena! " />
+        <meta property="og:description"        content="Nudimo nova rješnja, drugačiji i potpuno moderan vizuelni identitet. Odvojite malo vremena da nas upoznate i pokazaćemo Vam kako da se izdvojite iz mase i kako da svoje poslove obavljate na funcionalan i jednostavan način. Pandemija novog virusa je prinudila mnoge osobe da razmišljaju o alternativnom načinu predstavljanja. Samim tim što ste nas posjetili svjesni ste da alternativa postoji, i ne samo da postoji već je to idealna prilika da predstavite sebe, a svoje usluge i proizvode ponudite projektovanim ciljnim grupama." />
+        <meta property="og:image"              content="{{ asset('front/images/pixel/pixel.png') }}" />
     <!--
 
     Favicons
