@@ -11,6 +11,7 @@ use App\Http\Controllers\Front\AboutUsController;
 use App\Http\Controllers\Front\PriceController;
 use App\Http\Controllers\Backend\MessagesController;
 use App\Http\Controllers\Backend\MessagesEnController;
+use App\Http\Controllers\Backend\AdminController;
 
 
 use Illuminate\Support\Facades\Route;
@@ -63,6 +64,9 @@ Route::get('/price-list', [PriceController::class,'priceList']);
 Route::post('/sendmessage', [MessagesController::class, 'insertData']);
 Route::post('/sendmessage-en', [MessagesEnController::class, 'insertData']);
 
+//Messages
+Route::get('/messages', [AdminController::class, 'messages']);
+Route::post('/multipledelete', [AdminController::class, 'multipleDelete']);
 
 Route::group(['middleware' => ['auth']], function(){
 
